@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: aqua;
+}
+
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.product {
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+}
+
+.cart-item {
+  background-color: crimson;
+  padding: 1rem;
+  color: white;
+}
+
+
+
